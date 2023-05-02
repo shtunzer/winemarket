@@ -268,7 +268,86 @@ button{
 
 /* FORM */
 
+.form{
+    padding: 130px 0 100px;
+    background: #282828;
+    color: #fff;
+}
 
+.form__inner{
+    border: 1px solid #fff;
+    padding: 0 0 80px;
+}
+
+.form-title{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    padding: 10px 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -40px;
+    background: #282828;
+    display: block;
+    max-width: 490px;
+}
+
+.form-hr{
+    max-width: 118px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.form-text{
+    max-width: 540px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.form__formBox{
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.form__formBox-input + .form__formBox-input{
+    margin-left: 25px;
+}
+
+.form__formBox-input + .form__formBox-input + .form__formBox-input{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.form__formBox-input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    width: 255px;
+    padding: 0 0 10px;
+    margin-left: auto;
+    color: #fff;
+}
+
+.form__formBox-input::placeholder{
+    color: #fff;
+}
+
+.form__formBox-btn{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #FFFFFF;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-top: 65px;
+}
 
 /* FOOTER */
 
@@ -320,4 +399,18 @@ button{
 
 .footer__social-img{
     display: block;
+}
+
+.form-decor-img-left{
+    position: absolute;
+    z-index: 5;
+    left: 60px;
+    bottom: -2180px;
+}
+
+.form-decor-img-right{
+    position: absolute;
+    z-index: 10;
+    right: 50px;
+    bottom: -2150px;
 }
