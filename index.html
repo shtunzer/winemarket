@@ -20,6 +20,11 @@
                         <p class="header__top-text">Новокузнечный переулок 4/1</p>
                         <p class="header__top-text">8 (812) 123-45-67</p>
                     </div>
+                    <button class="burger-btn" id="burger-btn-open">
+                        <span class="burger-span"></span>
+                        <span class="burger-span"></span>
+                        <span class="burger-span"></span>
+                    </button>
                     <ul class="header__list">
                         <li class="header__list-item"><a href="#" class="header__list-link">Каталог</a></li>
                         <li class="header__list-item"><a href="#" class="header__list-link">Доставка</a></li>
@@ -30,6 +35,19 @@
             </div>
         </header>
         <main class="main">
+            <section id="burger__menu" class="burger__menu">
+                <div class="burger__inner">
+                    <button class="burger_menu-btn" id="burger-btn-hide">
+                        <img src="assets/images/hide.svg" class="burger__menu-img">
+                    </button>
+                    <a href="#" class="burger__menu-link">Каталог</a>
+                    <a href="#" class="burger__menu-link">Доставка</a>
+                    <a href="#" class="burger__menu-link">Коллекции</a>
+                    <a href="#" class="burger__menu-link">Контакты</a>
+                    <p class="burger__menu-text">Новокузнечный переулок 4/1</p>
+                    <p class="burger__menu-text">8 (812) 123-45-67</p>
+                </div>
+            </section>
             <section class="firstScreen">
                 <div class="container">
                     <div class="firstScreen__inner">
@@ -95,8 +113,6 @@
             <section class="form">
                 <div class="container">
                     <div class="form__inner">
-                        <img src="assets/images/vine.png" class="form-decor-img-left">
-                        <img src="assets/images/barell.png" class="form-decor-img-right">
                         <h1 class="form-title">Запись на дегустацию</h1>
                         <hr class="form-hr">
                         <p class="form-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. </p>
